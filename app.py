@@ -1,3 +1,9 @@
+import openpyxl as xl
+
+wb = xl.load_workbook("transactions.xlsx")
+sheet = wb["Sheet1"]
+
+
 # weight converter
 weight = int(input("weight: "))
 unit = input("(L)bs or (K)g: ")

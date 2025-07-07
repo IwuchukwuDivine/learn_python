@@ -1,4 +1,4 @@
-from converter import kg_to_lbs, lbs_to_kg
+
 
 temps = [36.5, 37.0, 37.8, 38.2, 36.7]
 
